@@ -1,0 +1,40 @@
+/* Spherical information container styles */
+.spherical-info {
+    width: 110%;
+    background: radial-gradient(circle, #FF5722 10%, #FF9900 80%);
+    border-radius: 0 0 0 200% / 0 0 0 400%; /* Border radius for the bottom */
+    padding: 0 0 0 0;
+    text-align: center;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif; /* Use your custom font-family here */
+  }
+  
+  .spherical-info:hover {
+    transform: scale(1.05);
+  }
+  
+  .spherical-info h2 {
+    font-size: 32px;
+    color: #fff;
+    
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  
+  .spherical-info p {
+    font-size: 20px;
+    color: #f5f5f5;
+    line-height: 1.6;
+    max-width: 80%;
+  }
+  

@@ -1,0 +1,59 @@
+/* Card styles (adjust as needed) */
+.card {
+  background-color: transparent;
+  
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-in-out;
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Card shape (L shape) styles */
+.card-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px; /* Adjust the width of the "L" shape */
+  height: 100%;
+  background-color: #FF5722; /* Customize the color of the "L" shape */
+  z-index: -1; /* Place it behind the card content */
+  border-radius: 0 10px 10px 0; /* Create the "L" shape */
+}
+
+/* Card content styles (adjust as needed) */
+.card-content {
+  flex: 2;
+  padding: 20px;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Card image styles (adjust as needed) */
+.card-image {
+  flex: 1;
+  max-width: 200px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+}

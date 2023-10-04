@@ -1,0 +1,63 @@
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo styles */
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 1em;
+    margin-right: 2em;
+  }
+  
+  .logo span {
+    font-size: 20px; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-left: 10px;
+    letter-spacing: 2px; /* Add letter spacing for style */
+    text-transform: uppercase; /* Uppercase text for style */
+    color: #FF5722; /* Custom color for the application name */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for depth */
+  }
+  
+  /* Navigation links styles */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Login button styles */
+  .login-button button {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button button:hover {
+    background-color: #E64A19;
+  }
+  
